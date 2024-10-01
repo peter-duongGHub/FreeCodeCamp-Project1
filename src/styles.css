@@ -5,10 +5,9 @@ body{
     background-color: rgba(0,0,0, 0.35);
     color: white;
     font-family: arial, serif;
-    margin: 10px auto; 
+    margin: 20px auto; 
     max-width: 70vw;
-    height: 100vh;
-    padding: 0px 20px 0px 20px;
+    padding: 20px;
     border: 10px double rgba(255,255,255, 0.5);
   }
   h1 {
@@ -41,6 +40,7 @@ body{
   .fieldset {
    margin-top: 20px;
    border: none;
+   padding: 20px auto;
   }
   
   .random
@@ -106,4 +106,7 @@ body{
     font-size: 20px;
     font-style: italic;
 display: block;
+  }
+  #text-area {
+    padding: 50px;
   }

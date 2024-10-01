@@ -19,32 +19,42 @@
 <label for="number"> Number: <input class="block"  placeholder="Number" type="number" id="number" min="8" max="16"></label>
 
 </fieldset>
+
+
 <fieldset class="fieldset">
+<legend id="legend"> Which best describes you?
 <select id="dropdown">
   <option>(please select option)</option>
-  <option>Option 1</option>
-  <option>Option 2</option>
+  <option>Student</option>
+  <option>Worker</option>
+  <option>Unemployed</option>
+  <option>Prefer not to say</option>
 </select>
+ </legend>
 </fieldset>
 
-<fieldset class="fieldset">
-<legend> What to do  </legend>
 
-  <label for="button1"> Random1 <input type="radio" id="button1" name="buttons"></label>
-  <label for="button2"> Random2 <input id="button2" type="radio" name="buttons">
- </label>
+<fieldset class="random">
+<legend id="legend"> How did you hear about us?</legend>
+
+  <label id="label1"  for="button1"><input type="radio" id="button1" name="buttons"> Social Media</label>
+
+  <label id="label2" for="button2"><input id="button2" type="radio" name="buttons"> Word of Mouth</label>
 
   </fieldset>
 
   <fieldset class="fieldset">
-    <legend> Random </legend>
-<label for="check1"> Random1 <input value="1" type="checkbox" id="check1"></label>
-<label for="check2"> Random2 <input value="2" id="check2" type="checkbox"></label>
+    <legend id="legend"> What component can be improved on this project? </legend>
+<label id="label1" for="check1"> <input value="1" type="checkbox" id="check1"> Input fields</label>
+<label id="label2" for="check2"> <input value="2" id="check2" type="checkbox"> Spacing</label>
+<label id="label3" for="check3"><input value="2" id="check3" type="checkbox"> Font </label>
+<label id="label4" for="check4"> <input value="2" id="check4" type="checkbox"> Colour Scheme</label>
 
-<label for="text=area"> Bio: <textarea id="text-area"></textarea></label
+<label id="bio" for="text=area"> Extra Information: <textarea id="text-area"></textarea></label
 </fieldset>
 
 <button type="Submit" id="submit"> Submit </button>
+
   </form>
         </main>
       </body>

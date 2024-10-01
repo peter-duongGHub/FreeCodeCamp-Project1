@@ -5,10 +5,10 @@ body{
     background-color: rgba(0,0,0, 0.35);
     color: white;
     font-family: arial, serif;
-    margin: 10px auto;
+    margin: 10px auto; 
     max-width: 70vw;
     height: 100vh;
-    padding: 40px;
+    padding: 0px 20px 0px 20px;
     border: 10px double rgba(255,255,255, 0.5);
   }
   h1 {
@@ -27,9 +27,12 @@ body{
     text-align: center;
     font-style: italic;
   }
-  .block, #button1, #button2, #check1, #check2, #text-area {
-    display: block;
+  .block, .check, #text-area {
     width: 100%;
+    margin: 0;
+  }
+  .fields {
+    display: block;
   }
   #name-field, #email-field, #number {
     margin: 10px 0;
@@ -37,9 +40,16 @@ body{
   }
   .fieldset {
    margin-top: 20px;
-   padding-top: 10px;
    border: none;
   }
+  
+  .random
+  {
+    border: none;
+    padding: 40px auto;
+  }
+
+
   button {
     width: 100%;
     text-align: center;
@@ -60,6 +70,8 @@ body{
   #legend {
     font-style : italic;
     font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
   }
   option {
     color: black;
@@ -75,9 +87,23 @@ body{
   }
   
  
-  #label {
+  #label1 {
   margin: 0 auto;
   display: inline;
-  vertical-align: center;
   margin-bottom: 0;
+  width: 100%;
+  }
+
+ #label2, #label3, #label4 {
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 0;
+  }
+
+  #bio {
+    padding-top: 50px;
+    font-size: 20px;
+    font-style: italic;
+display: block;
   }

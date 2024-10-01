@@ -1,10 +1,10 @@
 body{
     background-image: linear-gradient(
       45deg,
-      rgba(120,150,0, 0.8),
-      rgba(120, 100, 200, 0.9)
+      rgba(120,150,0, 0.7),
+      rgba(120, 100, 200, 0.7)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(https://images.unsplash.com/photo-1458571037713-913d8b481dc6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1920);
   }
 
   form{
